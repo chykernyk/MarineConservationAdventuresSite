@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Leaf, MapPin, Users2 } from "lucide-react";
 import { PageHero } from "@/components/page-hero";
@@ -59,6 +60,23 @@ export default function VesselPage() {
         title="Rumpus: a 46ft Oyster ketch, built for small crews and big water"
         description="Everything about this boat is sized for intimacy over capacity. Six guests, two crew, and enough sail area to cross open water — nothing about her is designed to feel like a tour bus with a keel."
       />
+
+      <section className="bg-mist py-16 sm:py-20">
+        <div className="mx-auto max-w-6xl px-6 lg:px-10">
+          <Reveal>
+            <div className="relative aspect-[16/9] overflow-hidden rounded-3xl">
+              <Image
+                src="/images/rumpus-deck.jpg"
+                alt="Rumpus's foredeck alongside the pontoon, showing her teak decking and rigging"
+                fill
+                sizes="(min-width: 1280px) 1152px, 100vw"
+                className="object-cover"
+                priority
+              />
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
       <section className="bg-mist py-24 sm:py-28">
         <div className="mx-auto grid max-w-6xl gap-16 px-6 lg:grid-cols-[1fr_1fr] lg:items-start lg:px-10">
