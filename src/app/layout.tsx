@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | Ocean Conservation Adventures",
   },
   description:
-    "Sail a 42ft Opus ketch out of Falmouth, Cornwall with working marine scientists. Single-day voyages and five-day conservation expeditions studying coral reefs, migratory giants, and fragile seas.",
+    "Sail a 46ft Oyster ketch out of Falmouth, Cornwall with working marine scientists. Single-day voyages and five-day conservation expeditions studying coral reefs, migratory giants, and fragile seas.",
   metadataBase: new URL("https://www.oceanconservationadventures.co.uk"),
   openGraph: {
     title: "Ocean Conservation Adventures",

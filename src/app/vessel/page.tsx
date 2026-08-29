@@ -8,17 +8,17 @@ import { SailBoat } from "@/components/sail-boat";
 export const metadata: Metadata = {
   title: "About & The Vessel",
   description:
-    "Meet Kittiwake, our 42ft Opus ketch, and the small-crew ethos behind Ocean Conservation Adventures in Falmouth, Cornwall.",
+    "Meet Kittiwake, our 46ft Oyster ketch, and the small-crew ethos behind Ocean Conservation Adventures in Falmouth, Cornwall.",
 };
 
 const SPECS = [
   ["Name", "Kittiwake"],
-  ["Design", "Opus 42, Bermudan ketch rig"],
-  ["Length overall", "42 feet (12.8m)"],
-  ["Beam", "12.6 feet (3.8m)"],
-  ["Draught", "6.2 feet (1.9m)"],
+  ["Design", "Oyster 46, Bermudan ketch rig"],
+  ["Length overall", "46 feet (14.0m)"],
+  ["Beam", "13.5 feet (4.1m)"],
+  ["Draught", "6.6 feet (2.0m)"],
   ["Berths", "6 guests, 2 crew"],
-  ["Built", "Opus Marine, 2011"],
+  ["Built", "Oyster Yachts, 2011"],
   ["Refit", "2022 — low-impact systems"],
   ["Home port", "Falmouth, Cornwall"],
   ["Hull", "Cold-moulded timber composite"],
@@ -35,7 +35,7 @@ const TIMELINE = [
     year: "2019",
     title: "Kittiwake joins the fleet",
     detail:
-      "Our 42ft Opus ketch replaced a smaller sloop, giving us the range and stability for genuine offshore expeditions into the Celtic Deep and beyond.",
+      "Our 46ft Oyster ketch replaced a smaller sloop, giving us the range and stability for genuine offshore expeditions into the Celtic Deep and beyond.",
   },
   {
     year: "2022",
@@ -56,7 +56,7 @@ export default function VesselPage() {
     <>
       <PageHero
         eyebrow="About & The Vessel"
-        title="Kittiwake: a 42ft Opus ketch, built for small crews and big water"
+        title="Kittiwake: a 46ft Oyster ketch, built for small crews and big water"
         description="Everything about this boat is sized for intimacy over capacity. Six guests, two crew, and enough sail area to cross open water — nothing about her is designed to feel like a tour bus with a keel."
       />
 

@@ -56,7 +56,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.25 }}
           className="mt-6 max-w-xl text-balance text-lg leading-relaxed text-mist/85"
         >
-          Hoist sail at dawn aboard a 42ft Opus ketch with the marine
+          Hoist sail at dawn aboard a 46ft Oyster ketch with the marine
           scientists who study coral reefs, track migratory giants, and
           fight for fragile seas. Single-day voyages and five-day
           expeditions, six guests at a time.

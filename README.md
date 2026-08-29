@@ -1,7 +1,7 @@
 # Ocean Conservation Adventures
 
 Marketing site for Ocean Conservation Adventures — small-crew eco-sailing and
-marine conservation expeditions aboard a 42ft Opus ketch, sailing out of
+marine conservation expeditions aboard a 46ft Oyster ketch, sailing out of
 Falmouth, Cornwall.
 
 ## Stack

@@ -13,8 +13,8 @@ export function SiteFooter() {
               <span className="font-display text-lg">Ocean Conservation Adventures</span>
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-mist/70">
-              Small-crew eco-sailing and marine science expeditions aboard a 42ft
-              Opus ketch, sailing out of Falmouth, Cornwall since 2016.
+              Small-crew eco-sailing and marine science expeditions aboard a 46ft
+              Oyster ketch, sailing out of Falmouth, Cornwall since 2016.
             </p>
           </div>
 

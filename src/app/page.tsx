@@ -207,7 +207,7 @@ export default function Home() {
               The Vessel
             </p>
             <h2 className="mt-4 text-balance font-display text-4xl font-light sm:text-5xl">
-              A 42ft Opus ketch, built for small crews and big water
+              A 46ft Oyster ketch, built for small crews and big water
             </h2>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-mist/80">
               <em>Kittiwake</em> carries no more than six guests at a time
@@ -225,11 +225,11 @@ export default function Home() {
           <Reveal delay={0.15}>
             <div className="grid grid-cols-2 gap-4 text-sm">
               {[
-                ["Length", "42 feet"],
+                ["Length", "46 feet"],
                 ["Rig", "Bermudan ketch"],
                 ["Berths", "6 guests + crew"],
                 ["Home port", "Falmouth, Cornwall"],
-                ["Built", "Opus Marine, 2011"],
+                ["Built", "Oyster Yachts, 2011"],
                 ["Refit", "2022, low-impact systems"],
               ].map(([label, value]) => (
                 <div key={label} className="rounded-xl border border-mist/15 p-5">

@@ -10,7 +10,7 @@ import { DAY_VOYAGES, EXPEDITIONS } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Voyages & Expeditions",
   description:
-    "Single-day voyages and five-day conservation expeditions aboard a 42ft Opus ketch, sailing from Falmouth, Cornwall.",
+    "Single-day voyages and five-day conservation expeditions aboard a 46ft Oyster ketch, sailing from Falmouth, Cornwall.",
 };
 
 export default function VoyagesPage() {
