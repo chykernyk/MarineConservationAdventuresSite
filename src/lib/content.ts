@@ -357,6 +357,56 @@ export const SCIENTISTS: Scientist[] = [
   },
 ];
 
+export type ConservationProgram = {
+  slug: string;
+  title: string;
+  summary: string;
+  detail: string;
+  stats: { value: string; label: string }[];
+};
+
+export const CONSERVATION_PROGRAMS: ConservationProgram[] = [
+  {
+    slug: "coral-reef-monitoring",
+    title: "Coldwater Coral Monitoring",
+    summary:
+      "Tracking the health of Cornwall and Scilly's pink sea fan gardens and cup coral beds as sea temperatures climb.",
+    detail:
+      "Britain's coldwater coral gardens rarely make headlines, but they support the same density of life as their tropical cousins and are far less studied. Since 2018 we've run standardised video and photo transects across 38 sites around the Isles of Scilly and the Lizard peninsula, scoring colony health against Natural England's reef condition framework. The data feeds a growing picture of how quickly warming water and anchor damage are changing these reefs — and where Marine Protected Area boundaries need to expand to actually protect them.",
+    stats: [
+      { value: "38", label: "Survey sites monitored" },
+      { value: "6 years", label: "Continuous dataset" },
+      { value: "4", label: "MPA boundary proposals informed" },
+    ],
+  },
+  {
+    slug: "migratory-species-tracking",
+    title: "Migratory Giants Tracking",
+    summary:
+      "Satellite and photo-ID tracking of basking sharks, whales, and leatherback turtles through Cornish and Biscay waters.",
+    detail:
+      "The Celtic Deep and the Bay of Biscay shelf edge are migratory highways for some of the Atlantic's largest animals — and some of its least protected. We contribute dorsal fin photo-IDs to the national basking shark catalogue, support satellite tagging under scientific licence, and log every confirmed cetacean and turtle sighting to regional databases. Guest-collected data has helped confirm basking shark transatlantic crossings and refine seasonal predictions of where whales and turtles concentrate.",
+    stats: [
+      { value: "1,240+", label: "Basking shark fin IDs logged" },
+      { value: "96", label: "Satellite tags reviewed with guests" },
+      { value: "3", label: "Species tracked across two ocean basins" },
+    ],
+  },
+  {
+    slug: "ecosystem-protection",
+    title: "Ecosystem & Habitat Protection",
+    summary:
+      "Kelp forest recovery, beach cleans, and policy submissions that turn survey data into actual protection.",
+    detail:
+      "Data alone doesn't protect an ecosystem — advocacy does. We partner with Cornwall Wildlife Trust and the Cornwall Seabird Watch network to submit our survey findings toward Marine Protected Area consultations, run kelp forest recovery transects to track the recovery of species since trawling restrictions came into force in Cornish waters, and clear marine litter from the remote coastlines our voyages pass. It's slow, unglamorous work — and it's the reason our sightings and survey logs matter more than a nice photo.",
+    stats: [
+      { value: "3.1 tonnes", label: "Marine litter removed since 2019" },
+      { value: "12", label: "Kelp recovery transects re-surveyed annually" },
+      { value: "2", label: "Conservation partner organisations" },
+    ],
+  },
+];
+
 export const IMPACT_STATS = [
   { value: "1,240+", label: "Basking shark fin IDs logged since 2019" },
   { value: "38", label: "Coldwater coral survey sites monitored" },
