@@ -181,7 +181,7 @@ export const EXPEDITIONS: Expedition[] = [
       "Full safety briefing, wet-weather gear, and harnesses",
       "Direct contribution to peer-reviewed basking shark research",
     ],
-    scientistSlug: "dr-elena-marsh",
+    scientistSlug: "bill-burnett",
   },
   {
     slug: "isles-of-scilly-coral-gardens",
@@ -237,7 +237,7 @@ export const EXPEDITIONS: Expedition[] = [
       "Snorkel kit and underwater video training",
       "A copy of your logged survey data and an expedition certificate",
     ],
-    scientistSlug: "dr-samuel-okafor",
+    scientistSlug: "juliet-burnett",
   },
   {
     slug: "bay-of-biscay-migratory-giants",
@@ -293,7 +293,7 @@ export const EXPEDITIONS: Expedition[] = [
       "Offshore safety briefing, harnesses, and lifejackets with AIS beacons",
       "Access to the season's satellite tracking data and sightings log",
     ],
-    scientistSlug: "dr-nadia-veal",
+    scientistSlug: "bill-burnett",
   },
 ];
 
@@ -308,51 +308,27 @@ export type Scientist = {
 
 export const SCIENTISTS: Scientist[] = [
   {
-    slug: "dr-elena-marsh",
-    name: "Dr Elena Marsh",
-    role: "Lead Shark & Elasmobranch Ecologist",
-    specialty: "Basking sharks & migratory elasmobranchs",
-    bio: "Elena has spent fourteen years studying basking sharks from the Hebrides to the Azores, and led the satellite tagging programme that first confirmed Celtic Deep sharks cross the Atlantic to Newfoundland. She joined Ocean Conservation Adventures to put that data-gathering directly in front of the people funding it — our guests.",
+    slug: "bill-burnett",
+    name: "Bill Burnett",
+    role: "Lead Marine Biologist & Skipper",
+    specialty: "Basking sharks, migratory species & offshore skippering",
+    bio: "Bill has spent fourteen years studying basking sharks and migratory megafauna from the Hebrides to the Azores, and led the satellite tagging programme that first confirmed Celtic Deep sharks cross the Atlantic to Newfoundland. He holds an Ocean Yachtmaster ticket and is usually the first voice you'll hear on the pontoon at dawn.",
     credentials: [
       "PhD in Marine Biology, University of Exeter",
       "Scientific licence holder for basking shark tagging",
-      "Published in Marine Ecology Progress Series",
+      "RYA Yachtmaster Ocean, Commercially Endorsed",
     ],
   },
   {
-    slug: "dr-samuel-okafor",
-    name: "Dr Samuel Okafor",
+    slug: "juliet-burnett",
+    name: "Juliet Burnett",
     role: "Coral Reef & Coldwater Ecosystem Specialist",
     specialty: "Coldwater coral gardens & reef resilience",
-    bio: "Samuel began his career mapping bleaching events on the Great Barrier Reef before turning his attention to Britain's overlooked coldwater coral gardens. He believes the pink sea fan beds of the Isles of Scilly are an early warning system for the whole Atlantic, and has trained over 200 citizen scientists in reef health survey methods.",
+    bio: "Juliet began her career mapping bleaching events on the Great Barrier Reef before turning her attention to Britain's overlooked coldwater coral gardens. She believes the pink sea fan beds of the Isles of Scilly are an early warning system for the whole Atlantic, and has trained over 200 citizen scientists in reef health survey methods.",
     credentials: [
       "PhD in Coral Reef Ecology, James Cook University",
       "Natural England accredited reef survey trainer",
       "Ten years' fieldwork across three ocean basins",
-    ],
-  },
-  {
-    slug: "dr-nadia-veal",
-    name: "Dr Nadia Veal",
-    role: "Migratory Species & Telemetry Lead",
-    specialty: "Whale, turtle & pelagic bird tracking",
-    bio: "Nadia has tagged and tracked everything from leatherback turtles to Manx shearwaters, and spent three seasons aboard research vessels in the Southern Ocean before coming home to Cornwall. She designed our satellite telemetry review sessions so guests can see, in real time, where the animals they've spotted are headed next.",
-    credentials: [
-      "PhD in Animal Movement Ecology, University of Plymouth",
-      "Telemetry lead, Atlantic Migratory Corridors Project",
-      "RYA Yachtmaster Ocean",
-    ],
-  },
-  {
-    slug: "tom-pengelly",
-    name: "Tom Pengelly",
-    role: "Skipper & Seabird Survey Officer",
-    specialty: "Offshore skippering & seabird monitoring",
-    bio: "Tom has sailed out of Falmouth since he was seven years old and holds an Ocean Yachtmaster ticket with tens of thousands of offshore miles behind him. He runs our seabird transect programme in partnership with Cornwall Seabird Watch, and is usually the first voice you'll hear on the pontoon at dawn.",
-    credentials: [
-      "RYA Yachtmaster Ocean, Commercially Endorsed",
-      "STCW95 Basic Safety Training",
-      "Cornwall Seabird Watch survey coordinator",
     ],
   },
 ];

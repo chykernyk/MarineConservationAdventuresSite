@@ -11,7 +11,7 @@ import {
 } from "@/lib/content";
 
 export default function Home() {
-  const featuredScientists = SCIENTISTS.slice(0, 3);
+  const featuredScientists = SCIENTISTS;
 
   return (
     <>
@@ -168,7 +168,7 @@ export default function Home() {
             </h2>
           </Reveal>
 
-          <div className="mt-14 grid gap-8 sm:grid-cols-3">
+          <div className="mt-14 grid gap-8 sm:grid-cols-2">
             {featuredScientists.map((s, i) => (
               <Reveal key={s.slug} delay={i * 0.1}>
                 <Link href={`/scientists#${s.slug}`} className="group block">
