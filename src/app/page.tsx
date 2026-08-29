@@ -210,7 +210,7 @@ export default function Home() {
               A 46ft Oyster ketch, built for small crews and big water
             </h2>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-mist/80">
-              <em>Kittiwake</em> carries no more than six guests at a time
+              <em>Rumpus</em> carries no more than six guests at a time
               &mdash; small enough that everyone stands a proper watch,
               learns real knots, and gets to know the water instead of
               just looking at it.

@@ -7,7 +7,7 @@ import { DAY_VOYAGES, EXPEDITIONS } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Book Your Voyage",
   description:
-    "Request a berth on a single-day voyage or five-day conservation expedition aboard Kittiwake, sailing from Falmouth, Cornwall.",
+    "Request a berth on a single-day voyage or five-day conservation expedition aboard Rumpus, sailing from Falmouth, Cornwall.",
 };
 
 const ALL_TRIPS = [...DAY_VOYAGES, ...EXPEDITIONS].map((t) => t.slug);

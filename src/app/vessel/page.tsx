@@ -8,11 +8,11 @@ import { SailBoat } from "@/components/sail-boat";
 export const metadata: Metadata = {
   title: "About & The Vessel",
   description:
-    "Meet Kittiwake, our 46ft Oyster ketch, and the small-crew ethos behind Ocean Conservation Adventures in Falmouth, Cornwall.",
+    "Meet Rumpus, our 46ft Oyster ketch, and the small-crew ethos behind Ocean Conservation Adventures in Falmouth, Cornwall.",
 };
 
 const SPECS = [
-  ["Name", "Kittiwake"],
+  ["Name", "Rumpus"],
   ["Design", "Oyster 46, Bermudan ketch rig"],
   ["Length overall", "46 feet (14.0m)"],
   ["Beam", "13.5 feet (4.1m)"],
@@ -33,7 +33,7 @@ const TIMELINE = [
   },
   {
     year: "2019",
-    title: "Kittiwake joins the fleet",
+    title: "Rumpus joins the fleet",
     detail:
       "Our 46ft Oyster ketch replaced a smaller sloop, giving us the range and stability for genuine offshore expeditions into the Celtic Deep and beyond.",
   },
@@ -41,7 +41,7 @@ const TIMELINE = [
     year: "2022",
     title: "Low-impact refit",
     detail:
-      "A full systems refit added solar charging, a hybrid electric auxiliary, and holding tanks throughout — cutting Kittiwake's footprint without cutting her range.",
+      "A full systems refit added solar charging, a hybrid electric auxiliary, and holding tanks throughout — cutting Rumpus's footprint without cutting her range.",
   },
   {
     year: "Today",
@@ -56,7 +56,7 @@ export default function VesselPage() {
     <>
       <PageHero
         eyebrow="About & The Vessel"
-        title="Kittiwake: a 46ft Oyster ketch, built for small crews and big water"
+        title="Rumpus: a 46ft Oyster ketch, built for small crews and big water"
         description="Everything about this boat is sized for intimacy over capacity. Six guests, two crew, and enough sail area to cross open water — nothing about her is designed to feel like a tour bus with a keel."
       />
 
@@ -189,7 +189,7 @@ export default function VesselPage() {
         <div className="mx-auto max-w-2xl px-6 lg:px-10">
           <Reveal>
             <h2 className="text-balance font-display text-3xl font-light sm:text-4xl">
-              Come and see Kittiwake for yourself
+              Come and see Rumpus for yourself
             </h2>
             <p className="mt-5 leading-relaxed text-mist/75">
               Every voyage and expedition sails aboard her, from Falmouth
