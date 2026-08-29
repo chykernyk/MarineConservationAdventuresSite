@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Anchor, Compass, Waves } from "lucide-react";
 import { Hero } from "@/components/hero";
@@ -200,7 +201,20 @@ export default function Home() {
 
       {/* Vessel teaser */}
       <section className="bg-ocean py-24 text-mist sm:py-32">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-2 lg:items-center lg:px-10">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10">
+          <Reveal>
+            <div className="relative aspect-[16/9] overflow-hidden rounded-3xl">
+              <Image
+                src="/images/rumpus-deck.jpg"
+                alt="Rumpus's foredeck alongside the pontoon, showing her teak decking and rigging"
+                fill
+                sizes="(min-width: 1280px) 1280px, 100vw"
+                className="object-cover"
+              />
+            </div>
+          </Reveal>
+        </div>
+        <div className="mx-auto mt-16 grid max-w-7xl gap-12 px-6 lg:grid-cols-2 lg:items-center lg:px-10">
           <Reveal>
             <Anchor className="h-9 w-9 text-sun" />
             <p className="mt-5 font-nav text-xs uppercase tracking-[0.3em] text-sun">
